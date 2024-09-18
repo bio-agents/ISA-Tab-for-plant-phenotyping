@@ -1,0 +1,521 @@
+<isatab-config-file xmlns="http://www.ebi.ac.uk/bii/isatab_configuration#">
+	<isatab-configuration table-name="investigation">
+		<measurement term-label="[investigation]" term-accession="" source-abbreviation=""/>
+		<technology term-label="" term-accession="" source-abbreviation=""/>
+		<field header="Investigation Identifier" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Identifier comprising the unique name of the institution/database hosting the submission of the investigation data, and the accession number of the investigation in that institution (MIAPPEv1.1). A property of the PPEO Investigation Class: http://purl.org/ppeo/PPEO.owl#investigation]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Title" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Human-readable string summarising the investigation (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Description" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Human-readable text describing the investigation in more detail (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Submission Date" data-type="Date" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Date of submission of the dataset presently being described to a host repository (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Public Release Date" data-type="Date" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Date of first public release of the dataset presently being described (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[License]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="true" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[License for the reuse of the data associated with this investigation. The Creative Commons licenses cover most use cases and are recommended (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[MIAPPE version]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[The version of MIAPPE used (MIAPPEv1.1).]]>
+			</description>
+			<default-value>"1.1"</default-value>/>
+		</field>		
+		<field header="Comment[Created with configuration]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="true" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[A field indicating which ISA configuration was used to create the ISAtab file.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Last Opened With Configuration]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="true" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[A field indicating which ISA configuration was last used to open the ISAtab file.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation PubMed ID" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION PUBLICATIONS">
+			<description>
+				<![CDATA[The PubMed ID related to this publication (if available). (MIAPPEv1.1)]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Publication DOI" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION PUBLICATIONS">
+			<description>
+				<![CDATA[The DOI related to this publication (if available). (MIAPPEv1.1)]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Publication Author List" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION PUBLICATIONS">
+			<description>
+				<![CDATA[The authors who contributed to this publication.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Publication Title" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION PUBLICATIONS">
+			<description>
+				<![CDATA[The title of the publication. (MIAPPEv1.1)]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Publication Status" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION PUBLICATIONS">
+			<description>
+				<![CDATA[The status of this publication, e.g. Published, Submitted, etc.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Person Last Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION CONTACTS">
+			<description>
+				<![CDATA[The last name/surname of the contact.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Person First Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION CONTACTS">
+			<description>
+				<![CDATA[The first name/forename of the contact.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Person Mid Initials" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION CONTACTS">
+			<description>
+				<![CDATA[The mid initial of the contact.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Person Email" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION CONTACTS">
+			<description>
+				<![CDATA[The email corresponding to this contact.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Person Phone" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION CONTACTS">
+			<description>
+				<![CDATA[A phone number for this contact, if available.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Person Fax" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION CONTACTS">
+			<description>
+				<![CDATA[A fax number for this contact, if available.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Person Address" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION CONTACTS">
+			<description>
+				<![CDATA[The address for this contact, preferably, their institution.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Person Affiliation" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION CONTACTS">
+			<description>
+				<![CDATA[The affiliation for this contact.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Investigation Person Roles" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION CONTACTS">
+			<description>
+				<![CDATA[The role of the person in this investigation.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Identifier" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY">
+			<description>
+				<![CDATA[Unique identifier comprising the name or identifier for the institution/database hosting the submission of the study data, and the identifier of the study in that institution (MIAPPEv1.1). A property of the PPEO Study Class: http://purl.org/ppeo/PPEO.owl#study]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Title" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY">
+			<description>
+				<![CDATA[Human-readable text summarising the study (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Description" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY">
+			<description>
+				<![CDATA[Human-readable text describing the study (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Submission Date" data-type="Date" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY">
+			<description>
+				<![CDATA[The date the study was submitted.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Public Release Date" data-type="Date" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY">
+			<description>
+				<![CDATA[The date the study was released publicly.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study File Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY">
+			<description>
+				<![CDATA[The name of the study sample file linked to this Study]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[study start date]" data-type="Date" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY">
+			<description>
+				<![CDATA[Date and, if relevant, time when the experiment started  (ISO 8601, optional time zone).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[study end date]" data-type="Date" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY">
+			<description>
+				<![CDATA[Date and, if relevant, time when the experiment ended  (ISO 8601, optional time zone).]]>
+			</description>
+			<default-value/>
+		</field>			
+		<field header="Comment[contact institution]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Name and address of the institution responsible for the study. (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[experimental site name]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[The name of the natural site, experimental field, greenhouse, phenotyping facility, etc. where the experiment took place. (MIAPPEv1.1). BRAPI mapping: Location/name ]]>
+			</description>
+			<default-value/>
+		</field>		
+		<field header="Comment[geographic location (country]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[The country where the experiment took place, either as a full name or preferably as a 2-letter code (ISO 3166) (MIAPPEv1.1). BRAPI mapping: Location/countryName or Location/countryCode]]>
+			</description>
+			<default-value/>
+		</field>		
+		<field header="Comment[geographic location (latitude)]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="true" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Latitude of the experimental site in degrees, in decimal format, (ISO 6709) (MIAPPEv1.1). BRAPI mapping: Location/latitude]]>
+			</description>
+			<default-value/>
+		</field>		
+		<field header="Comment[geographic location (longitude)]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="true" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Longitude of the experimental site in degrees, in decimal format, (ISO 6709) (MIAPPEv1.1). BRAPI mapping: Location/longitude]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[geographic location (altitude)]" data-type="Double" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="true" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Altitude of the experimental site, preferably provided in metres (m) (MIAPPEv1.1). BRAPI mapping: Location/altitude]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study PubMed ID" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY PUBLICATIONS">
+			<description>
+				<![CDATA[The PubMed ID related to this publication (if available) (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Publication DOI" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY PUBLICATIONS">
+			<description>
+				<![CDATA[The DOI related to this publication (if available) (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Publication Author List" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY PUBLICATIONS">
+			<description>
+				<![CDATA[The authors who contributed to this publication.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Publication Title" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY PUBLICATIONS">
+			<description>
+				<![CDATA[The title of the publication (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Publication Status" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY PUBLICATIONS">
+			<description>
+				<![CDATA[The status of this publication, e.g. Published, Submitted, etc.]]>
+			</description>
+			<default-value/>
+		</field>		
+		<field header="Comment[Study Person ID]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="true" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[An identifier for the data submitter. If that submitter is an individual, ORCID identifiers are recommended. (MIAPPEv1.1). BRAPI mapping: contacts/orcid]]>
+			</description>
+			<default-value/>
+		</field>
+		
+		<field header="Study Person Last Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY CONTACTS">
+			<description>
+				<![CDATA[The last name/surname of the contact (MIAPPEv1.1). BRAPI mapping: contacts/name]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Person First Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY CONTACTS">
+			<description>
+				<![CDATA[The first name/forename of the contact (MIAPPEv1.1). BRAPI mapping: contacts/name]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Person Mid Initials" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY CONTACTS">
+			<description>
+				<![CDATA[The mid initial of the contact.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Person Email" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY CONTACTS">
+			<description>
+				<![CDATA[The email corresponding to this contact (MIAPPEv1.1). BRAPI mapping: contacts/email]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Person Phone" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY CONTACTS">
+			<description>
+				<![CDATA[A phone number for this contact, if available.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Person Fax" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY CONTACTS">
+			<description>
+				<![CDATA[A fax number for this contact, if available.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Person Address" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY CONTACTS">
+			<description>
+				<![CDATA[The address for this contact, preferably, their institution.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Person Affiliation" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY CONTACTS">
+			<description>
+				<![CDATA[The institution the person belongs to (MIAPPEv1.1). BRAPI mapping: contacts/affiliation]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Person Roles" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY CONTACTS">
+			<description>
+				<![CDATA[Type of contribution of the person to the investigation (MIAPPEv1.1). BRAPI mapping: contacts/type]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Factor Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY FACTORS">
+			<description>
+				<![CDATA[Name/Acronym of the factor (MIAPPEv1.1). BRAPI mapping: Study/observationunits/treatments/factor]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Factor Type" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY FACTORS">
+			<description>
+				<![CDATA[The type of the Factor driving this study, e.g. EFO:Dose (from Ontology), or Dose if the Factor name is something related to Dose as well, etc.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Study Factor Values]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY FACTORS">
+			<description>
+				<![CDATA[List of possible values for the factor (MIAPPEv1.1). BRAPI mapping: Study/observationunits/treatments/factor]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Study Design Description]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY FACTORS">
+			<description>
+				<![CDATA[Short description of the statistical design. (MIAPPEv1.1). ]]>
+			</description>
+			<default-value/>
+		</field>		
+		<field header="Study Design Type" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY DESIGN DESCRIPTORS">
+			<description>
+				<![CDATA[The type of study design being employed, Metabolomics/Metabonomics, Lipidomics, Metabolic Footprinting, Metabolic Fingerprinting, Targeted Profiling, Global Profiling.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Map of experimental design]" data-type="String" is-file-field="true" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Representation of the experimental design, a GIS or excel file. BRAPI mapping: if Study/dataLinks/@type="experimental design map", then Study/dataLinks/@url || @name ]]>
+			</description>
+			<default-value/>
+		</field>		
+		<field header="Comment[observation unit level hierarchy]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Hierarchy of the different levels of repetitions between each others (MIAPPEv1.1). BRAPI mapping: Layout/observationLevel or Layout/replicate or Layout/blockNumber]]>
+			</description>
+			<default-value/>
+		</field>	
+		<field header="Comment[observation unit description]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[General description of the observation units in the study. (MIAPPEv1.1).]]>
+			</description>
+			<default-value/>
+		</field>		
+		<field header="Comment[description of growth facility]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Short description of the facility in which the study was carried out.. (MIAPPEv1.1). BRAPI mapping: none available (all versions) ]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[cultural practices]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Representation of the experimental design, a GIS or excel file. BRAPI mapping: none available ]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Study Factor Values]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY FACTORS">
+			<description>
+				<![CDATA[List of possible values for the factor (MIAPPEv1.1)..]]>
+			</description>
+			<default-value/>
+		</field>				
+
+		<field header="Comment[Data file link]" data-type="String" is-file-field="true" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Link to the data file (or digital object) in a public database or institutional repository; or identifier of the data file when submitted together with the MIAPPE submission. BRAPI mapping: if Study/dataLinks/@type is not "experimental design map", then Study/dataLinks/@url || @name ]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Data file description]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Description of the format of the data file. May be a standard file format name, or a description of organization of the data in a tabular file. BRAPI mapping: TODO. ]]>
+			</description>
+			<default-value>Trait Definition File</default-value>
+		</field>
+		<field header="Comment[Data file version]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[The version of the dataset (the actual data). BRAPI mapping: TODO ]]>
+			</description>
+			<default-value/>
+		</field>
+
+
+		<field header="Study Assay Measurement Type" data-type="List" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY ASSAYS">
+			<description>
+				<![CDATA[The measurement being observed in this assay, e.g. Transcription Profiling, Metabolite Profiling]]>
+			</description>
+			<default-value/>
+			<list-values>SampleVal1,SampleVal2,SampleVal3</list-values>
+		</field>
+		<field header="Study Assay Technology Type" data-type="List" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY ASSAYS">
+			<description>
+				<![CDATA[The technology being employed to observe this measurement, e.g. NMR, Mass Spectrometry and so forth]]>
+			</description>
+			<default-value/>
+			<list-values>SampleVal1,SampleVal2,SampleVal3</list-values>
+		</field>
+		<field header="Study Assay Technology Platform" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY ASSAYS">
+			<description>
+				<![CDATA[The technology platform used, e.g. Affymetrix, Illumina, Solexa, SOLiD, Bruker, etc.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Assay File Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY ASSAYS">
+			<description>
+				<![CDATA[The name of the file which contains the information about this assay, the samples and pipeline used.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Data file link]" data-type="String" is-file-field="true" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Link to the data file (or digital object) in a public database or institutional repository; or identifier of the data file when submitted together with the MIAPPE submission. BRAPI mapping: if Study/dataLinks/@type is not "experimental design map", then Study/dataLinks/@url || @name ]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Data file description]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Description of the format of the data file. May be a standard file format name, or a description of organization of the data in a tabular file. BRAPI mapping: TODO. ]]>
+			</description>
+			<default-value>Data Definition File</default-value>
+		</field>
+		<field header="Comment[Data file version]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[The version of the dataset (the actual data). BRAPI mapping: TODO ]]>
+			</description>
+			<default-value/>
+		</field>
+
+
+		<field header="Study Protocol Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false" section="STUDY PROTOCOLS">
+			<description>
+				<![CDATA[The name of the protocol, e.g. Samples Collection, Extraction Protocol]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Protocol Type" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY PROTOCOLS">
+			<description>
+				<![CDATA[The type of the protocol, preferably coming from an Ontology, e.g. Extraction Protocol]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Protocol Description" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY PROTOCOLS">
+			<description>
+				<![CDATA[A description of the Protocol.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Protocol URI" data-type="Long String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY PROTOCOLS">
+			<description>
+				<![CDATA[A URI to link out to a publication, web page, etc. describing the protocol.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Protocol Version" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY PROTOCOLS">
+			<description>
+				<![CDATA[The version of the protocol used, where applicable.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Protocol Parameters Name" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY PROTOCOLS">
+			<description>
+				<![CDATA[The parameters used when executing this protocol.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Protocol Components Name" data-type="String" is-file-field="false" is-multiple-value="true" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY PROTOCOLS">
+			<description>
+				<![CDATA[The components used when carrying out this protocol.]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Study Protocol Components Type" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="STUDY PROTOCOLS">
+			<description>
+				<![CDATA[The type of Components used in this Protocol.]]>
+			</description>
+			<default-value/>
+		</field>
+
+		<field header="Comment[Data file link]" data-type="String" is-file-field="true" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Link to the data file (or digital object) in a public database or institutional repository; or identifier of the data file when submitted together with the MIAPPE submission. BRAPI mapping: if Study/dataLinks/@type is not "experimental design map", then Study/dataLinks/@url || @name ]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Data file description]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[Description of the format of the data file. May be a standard file format name, or a description of organization of the data in a tabular file. BRAPI mapping: TODO. ]]>
+			</description>
+			<default-value/>
+		</field>
+		<field header="Comment[Data file version]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false" section="INVESTIGATION">
+			<description>
+				<![CDATA[The version of the dataset (the actual data). BRAPI mapping: TODO ]]>
+			</description>
+			<default-value/>
+		</field>		
+		
+		<structured-field name="factors"/>
+	</isatab-configuration>
+</isatab-config-file>
